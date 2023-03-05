@@ -1,4 +1,6 @@
 <script>
+  
+  export let data;
 
 </script>
 
@@ -26,20 +28,15 @@
     </div>
 </div>
 
-
-
 <slot/>
 
-
 <style lang="scss">
-    .caja-1{
-        background-color: #ce1313;
+  .caja-1{
         border-radius: 10px;
         padding: 5px;
         color: white;
     }
     .caja-2{
-        background-color: #3ca718;
         border-radius: 10px;
         padding: 5px;
         color: white;
