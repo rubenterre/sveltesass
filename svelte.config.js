@@ -6,7 +6,7 @@ import preprocess from 'svelte-preprocess';
 const config = {
 	  preprocess: preprocess({
 		scss: {
-       prependData: `@import './src/style/ghpages-materialize.scss';`
+       prependData: `@import './src/style/app.scss';`
      } 
 	  }),
 	kit: {
